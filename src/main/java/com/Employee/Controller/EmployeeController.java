@@ -28,7 +28,7 @@ public class EmployeeController {
 	}
 
 	// get the list of Employee details:Using findAll():
-	@GetMapping(value = "/empAllDetail")
+	@GetMapping(value = "/getAllEmpDetails")
 	public List<Employee> empAllDetail() {
 		return es.empAllDetail();
 	}
